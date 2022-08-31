@@ -1,0 +1,5 @@
+2858:00:00.0 3D controller: Microsoft Corporation Device 008e
+3fc2:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio filesystem (rev 01)
+64b5:00:00.0 System peripheral: Red Hat, Inc. Device 105a (rev 01)
+9699:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio filesystem (rev 01)
+dfdc:00:00.0 SCSI storage controller: Red Hat, Inc. Virtio filesystem (rev 01)

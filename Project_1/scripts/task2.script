@@ -1,0 +1,9 @@
+Script started on 2022-08-31 17:25:29-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="93" LINES="40"]
+]0;matth@matthew-yoga: /mnt/c/Users/matth/Documents/Homework/COMP3500/Project_1[01;32mmatth@matthew-yoga[00m:[01;34m/mnt/c/Users/matth/Documents/Homework/COMP3500/Project_1[00m$ more p[K/proc/cpuin fo > cpuinfo.txt
+]0;matth@matthew-yoga: /mnt/c/Users/matth/Documents/Homework/COMP3500/Project_1[01;32mmatth@matthew-yoga[00m:[01;34m/mnt/c/Users/matth/Documents/Homework/COMP3500/Project_1[00m$ more /proc/memin fo > meminfo.txt
+]0;matth@matthew-yoga: /mnt/c/Users/matth/Documents/Homework/COMP3500/Project_1[01;32mmatth@matthew-yoga[00m:[01;34m/mnt/c/Users/matth/Documents/Homework/COMP3500/Project_1[00m$ more /proc/inter rupts > interrupts.txt
+]0;matth@matthew-yoga: /mnt/c/Users/matth/Documents/Homework/COMP3500/Project_1[01;32mmatth@matthew-yoga[00m:[01;34m/mnt/c/Users/matth/Documents/Homework/COMP3500/Project_1[00m$ moroe /[K[K[K[K[Kpre[K[K[K[K[Klspci > lsc[Kpci/[K.tx t
+]0;matth@matthew-yoga: /mnt/c/Users/matth/Documents/Homework/COMP3500/Project_1[01;32mmatth@matthew-yoga[00m:[01;34m/mnt/c/Users/matth/Documents/Homework/COMP3500/Project_1[00m$ exit
+exit
+
+Script done on 2022-08-31 17:26:18-05:00 [COMMAND_EXIT_CODE="0"]

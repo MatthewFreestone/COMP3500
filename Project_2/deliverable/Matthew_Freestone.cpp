@@ -138,7 +138,7 @@ void run() // calculate value for each process in each loop
 int main() {
     int banner_id;
     // #9#BEGIN# DO NOT MODIFY THIS COMMENT LINE!
-    banner_id = 903902468;
+    banner_id = 904043882;
     // #9#END# DO NOT MODIFY THIS COMMENT LINE!
     printf("banner_id: %d\n", banner_id);
     init(); // initialize each PCB

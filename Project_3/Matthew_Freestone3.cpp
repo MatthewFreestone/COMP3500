@@ -1,7 +1,7 @@
 // Please change the following into your name
 // #0#BEGIN# DO NOT MODIFIE THIS COMMENT LINE!
-// First Name
-// Last Name
+// Matthew
+// Freestone
 // #0#END# DO NOT MODIFIE THIS COMMENT LINE!
 
 #include<iostream>
@@ -66,7 +66,11 @@ bool Safe(){
             // to check all types of available resources meet need
             // use varible j and write a "for" loop statment
             // #1#BEGIN# DO NOT MODIFIE THIS COMMENT LINE!
-            for(j=0;j<n;j++)
+            for(j=0;j<n;j++){
+                if(Work[j]<Need[i][j]){
+                    break;
+                }
+            }
             // #1#END# DO NOT MODIFIE THIS COMMENT LINE!
 
             /* Your codes */
@@ -78,9 +82,9 @@ bool Safe(){
             // meet the need? (Need[i][j] no great than Work[j] for all j)
             // Write an "if" condition statement of j
             // #2#BEGIN# DO NOT MODIFIE THIS COMMENT LINE!
-            
-            /* Your codes */
-            
+
+            if (j==n)
+
             // #2#END# DO NOT MODIFIE THIS COMMENT LINE! 
             { 
                 Finish[i]=true;
@@ -94,7 +98,7 @@ bool Safe(){
                 // to next postition of p after that (l++)
                 // #3#BEGIN# DO NOT MODIFIE THIS COMMENT LINE!
                 
-                /* Your codes */
+                p[l++]=i;
             
                 // #3#END# DO NOT MODIFIE THIS COMMENT LINE! 
 
@@ -108,8 +112,7 @@ bool Safe(){
         // all process number of the safe sequence
         // write a "if" statement
         // #4#BEGIN# DO NOT MODIFIE THIS COMMENT LINE!
-        
-        /* Your codes */
+        if (l==m) {
             
         // #4#END# DO NOT MODIFIE THIS COMMENT LINE!
             // if the system is safe, the resource will be assigned to the processes
@@ -164,7 +167,7 @@ void Bank() // banker's algorithm
             // new value of Allocation matrix
             // #5#BEGIN# DO NOT MODIFIE THIS COMMENT LINE!
             
-            /* Your codes */
+            Allocation[cusneed][i]+=Request[cusneed][i];
             
             // #5#END# DO NOT MODIFIE THIS COMMENT LINE!
             Need[cusneed][i]-=Request[cusneed][i];
@@ -175,10 +178,9 @@ void Bank() // banker's algorithm
         // hint: what is the return value of function Safe()?
         // #6#BEGIN# DO NOT MODIFIE THIS COMMENT LINE!
         
-            /* Your codes */
+        if (Safe()) {
             
         // #6#END# DO NOT MODIFIE THIS COMMENT LINE!
-        {
             cout<<"Request approved!"<<endl;
         }else{
             cout<<"Your request is declined!"<<endl;
@@ -191,7 +193,7 @@ void Bank() // banker's algorithm
                 // of Allocation[cusneed][i]
                 // #7#BEGIN# DO NOT MODIFIE THIS COMMENT LINE!
                 
-                /* Your codes */
+                Allocation[cusneed][i]-=Request[cusneed][i];
             
                 // #7#END# DO NOT MODIFIE THIS COMMENT LINE!
                 Need[cusneed][i]+=Request[cusneed][i]; 
@@ -215,7 +217,7 @@ int main()
 {
     // change your the following id into your banner id
     // #8#BEGIN# DO NOT MODIFIE THIS COMMENT LINE!
-    // int banner_id = your_banner_id;
+    // int banner_id = 904043882;
 
     /* Your codes */ 
 

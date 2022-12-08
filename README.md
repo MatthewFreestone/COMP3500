@@ -1,1 +1,1 @@
-This contains code for COMP3500 Operating Systems
+Auburn University COMP3500 Operating Systems
